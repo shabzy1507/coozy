@@ -34,8 +34,8 @@ body {
   border-radius: 100%;
   position: absolute;
   text-decoration: none;
-  left: 51px;
-  top: 49px;
+  left: 25px;
+  top: 44px;
   cursor: pointer;
 }
 h1 {
@@ -76,4 +76,8 @@ h1 {
   font-size: 1.8rem;
   border-radius: 8px;
   cursor: pointer;
+  transform: all 0.4s;
+}
+.cta-btn:hover {
+  background-color: #df7f2c;
 }

@@ -89,4 +89,9 @@ footer {
   color: #bc6c25;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.4s;
+}
+.log-in:hover,
+.log-in:active {
+  color: #df7f2c;
 }

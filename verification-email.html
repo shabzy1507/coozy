@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/signup4.css" />
+    <link rel="stylesheet" href="css/reset-smsEmail.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <title>setup profile</title>
+    <title>Verification code</title>
   </head>
   <body>
     <div class="container">
       <main>
-        <a href="signup3.html" class="previous-btn flex">
+        <a href="reset-password.html" class="previous-btn flex">
           <svg
             width="10"
             height="15"
@@ -34,16 +34,24 @@
           </svg>
         </a>
         <div class="text-box">
-          <h1>Enter your prefered Email</h1>
-          <p>Transaction receipts & updates will be sent to you</p>
+          <h1>Enter code sent to your E-mail</h1>
+          <p>We sent it to the email example@cozzyme.com</p>
         </div>
-        <form id="email" action="#">
-          <label for="email">Email</label>
-          <input type="email" placeholder=" Enter your Email " required />
+        <form id="email" class="flex" action="#">
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
         </form>
+        <p class="code">
+          <span>Resend code</span>
+          <span class="timer"> 30s</span>
+        </p>
       </main>
       <footer>
-        <a href="signup5.html" class="cta-btn flex"> Continue</a>
+        <a href="new-password.html" class="cta-btn flex"> Verify</a>
       </footer>
     </div>
   </body>
