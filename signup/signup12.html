@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/signup11.css" />
+    <link rel="stylesheet" href="../css/signup12.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <main>
-        <a href="signup10.html" class="previous-btn flex">
+        <a href="/signup/signup11.html" class="previous-btn flex">
           <svg
             width="10"
             height="15"
@@ -40,15 +40,30 @@
           </h1>
           <p>Let’s ensure your safety and that of your clients here</p>
         </div>
-        <form id="email" action="#">
-          <label for="phoneNumber">Phone number</label>
-          <input type="tel" required />
-          <label for="homeAddress">Home address</label>
-          <input type="text" required />
+        <form id="age-gender" action="#">
+          <label for="gender">Gender</label>
+
+          <label class="custom-radio-btn flex">
+            <span class="label">Male</span>
+            <input name="pick-gender" type="radio" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="custom-radio-btn">
+            <span class="label">Female</span>
+            <input name="pick-gender" type="radio" checked />
+            <span class="checkmark"></span>
+          </label>
+          <label class="custom-radio-btn">
+            <span class="label">Others</span>
+            <input name="pick-gender" type="radio" />
+            <span class="checkmark"></span>
+          </label>
+          <label for="dateOfBirth">Date of birth</label>
+          <input type="date" class="dateOfBirth" />
         </form>
       </main>
       <footer>
-        <a href="signup12.html" class="cta-btn flex"> Continue</a>
+        <a href="#" class="cta-btn flex"> Continue</a>
       </footer>
     </div>
   </body>
