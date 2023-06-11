@@ -39,20 +39,22 @@
         </div>
         <form id="email" action="#">
           <label for="password">Password</label>
-          <input type="password" required />
+          <input type="password" required id="password" />
           <label for="password">Confirm password</label>
-          <input type="password" required />
+          <input type="password" required id="confirmPassword" />
           <p class="password-requirements flex">
             <span>8 characters</span
             ><span class="requirement-met">Uppercase</span
             ><span class="requirement-met">Lowercase</span
             ><span>Alphanumeric</span>
           </p>
+          <p class="incorrect hidden">Passwords not matching!!!</p>
+          <footer>
+            <button class="cta-btn flex">Continue</button>
+          </footer>
         </form>
       </main>
-      <footer>
-        <a href="/signup/signup7.html" class="cta-btn flex"> Continue</a>
-      </footer>
     </div>
+    <script src="/script/signup6.js"></script>
   </body>
 </html>
